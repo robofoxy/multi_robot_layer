@@ -1,0 +1,9 @@
+<class_libraries>
+
+  <library path="lib/libmulti_robot_layer">
+    <class type="costmap_2d::MultiRobotLayer" base_class_type="costmap_2d::Layer">
+      <description>Costmap plugin that sets LETHAL_OBSTACLE areas of other robot's footprints.</description>
+    </class>
+  </library>
+  
+</class_libraries>
